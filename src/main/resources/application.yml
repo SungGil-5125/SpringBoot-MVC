@@ -1,2 +1,9 @@
 server:
   port: 8081
+
+logging:
+    level:
+      org:
+        apache:
+          coyote:
+            http11: debug
